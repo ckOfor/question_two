@@ -1,0 +1,657 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <meta name="theme-color" content="#fafafa">
+
+<!--  <link rel="stylesheet" href="https://demos.jquerymobile.com/1.4.2/css/themes/default/jquery.mobile-1.4.2.min.css">-->
+<!--  <script src="https://demos.jquerymobile.com/1.4.2/js/jquery.js"></script>-->
+
+<!--  <script src="https://demos.jquerymobile.com/1.4.2/js/jquery.mobile-1.4.2.min.js"></script>-->
+</head>
+
+<body>
+
+  <!-- Growth Automation Settings -->
+  <div
+    class="root"
+    style="display: flex; padding-top: 0px; padding-left: 20px; padding-right: 20px; flex-direction: column; justify-content: space-around; align-self: center; width: 65%; margin-top: 40px;"
+  >
+
+    <!-- Top row-->
+    <div>
+      <div class="div-one-column-one">
+        <img
+          style="width: 15px; height: 15px;"
+          src="./img/settingsIcon.png" alt="Settings Icon">
+      </div>
+      <div class="div-one-column-two">
+        <h6 style="font-size: 15px; color: #8b9398; margin: 0px">Growth Automation Settings</h6>
+      </div>
+    </div>
+
+
+    <!-- Bottom row-->
+    <div
+      style="margin-bottom: 5px; width: 100%; display: flex; justify-content: space-between; flex-direction: row"
+    >
+
+      <!-- First Column-->
+      <div
+        style=" width: 220px; display: flex; flex-direction: row; justify-content: space-between"
+      >
+        <div
+          class="div-two-column-one"
+        >
+          <h6
+            style="font-size: 15px; color: #8b9398; margin: 0px"
+          >
+            Activity Speed
+          </h6>
+        </div>
+
+        <div
+          class="div-two-column-two"
+        >
+          <img
+            style="width: 25px; height: 25px;"
+            src="./img/questionIcon.png" alt="Question icon">
+        </div>
+
+        <div
+          class="div-two-column-three">
+          <button
+            class="normal-button"
+            type="button"
+            style="background-color: transparent"
+          >
+            <div
+              style="display: flex; flex-direction: row; justify-content: space-between; align-content: center"
+            >
+              <h6
+                style="font-size: 13px; color: #8b9398; margin: auto"
+              >
+                Normal
+              </h6>
+
+              <img
+                style="margin-left: auto; margin-right: auto; margin-bottom: 5px; height: 20px"
+                src="./img/dropDown.png" alt="Question icon">
+            </div>
+          </button>
+        </div>
+      </div>
+
+      <!-- Divider-->
+      <div class="verticalLine"></div>
+
+      <!-- Second Column-->
+
+      <div
+        style=" width: 250px; display: flex; flex-direction: row; justify-content: space-between"
+      >
+        <div
+          class="div-two-column-one"
+        >
+          <h6
+            style="font-size: 15px; color: #8b9398; margin: 0px"
+          >
+            Keep Newsfeed Clean
+          </h6>
+        </div>
+
+        <div
+          class="div-two-column-two"
+        >
+          <img
+            style="width: 25px; height: 25px;"
+            src="./img/questionIcon.png" alt="Question icon">
+        </div>
+
+        <div class="md-switch">
+          <input type="checkbox" id="text-to-confirm" name="text-to-confirm" class="md-toggle md-toggle-round">
+          <label for="text-to-confirm"></label>
+        </div>
+      </div>
+
+      <!-- Divider-->
+      <div class="verticalLine"></div>
+
+      <!-- Third Column-->
+
+      <div
+        style=" width: 280px; display: flex; flex-direction: row; justify-content: space-between"
+      >
+        <div
+          class="div-two-column-one"
+        >
+          <h6
+            style="font-size: 15px; color: #8b9398; margin: 0px"
+          >
+            Ignore Low Quality Users
+          </h6>
+        </div>
+
+        <div
+          class="div-two-column-two"
+        >
+          <img
+            style="width: 25px; height: 25px;"
+            src="./img/questionIcon.png" alt="Question icon">
+        </div>
+
+        <div class="md-switch">
+          <input type="checkbox" id="marketing-promotions" name="marketing-promotions" class="md-toggle md-toggle-round">
+          <label for="marketing-promotions"></label>
+        </div>
+      </div>
+
+    </div>
+
+
+  </div>
+
+  <!-- Filters -->
+  <div
+    class="root-filter"
+    style="display: flex; padding-top: 0px; padding-left: 20px; padding-right: 20px; flex-direction: column; justify-content: space-around; align-self: center; width: 65%; margin-top: 40px;"
+  >
+
+    <!-- Top row-->
+    <div>
+      <div class="div-one-column-one">
+        <img
+          style="width: 15px; height: 15px;"
+          src="./img/filter.png" alt="Settings Icon">
+      </div>
+      <div class="div-one-column-two">
+        <h6 style="font-size: 15px; color: #8b9398; margin: 0px">Filters</h6>
+      </div>
+    </div>
+
+
+    <!-- Middle row-->
+    <div>
+      <div
+        style="margin-bottom: 20px; width: 100%; display: flex; justify-content: space-between; flex-direction: row"
+      >
+
+        <!-- First Column-->
+        <div
+          style=" width: 220px; display: flex; flex-direction: row; justify-content: space-between"
+        >
+          <div
+            class="div-two-column-one"
+          >
+            <h6
+              style="font-size: 15px; color: #8b9398; margin: 0px"
+            >
+              Gender Filter
+            </h6>
+          </div>
+
+          <div
+            class="div-two-column-two"
+          >
+            <img
+              style="width: 25px; height: 25px;"
+              src="./img/questionIcon.png" alt="Question icon">
+          </div>
+
+          <div
+            class="div-two-column-three">
+            <button
+              class="normal-button"
+              type="button"
+              style="background-color: transparent"
+            >
+              <div
+                style="display: flex; flex-direction: row; justify-content: space-between; align-content: center"
+              >
+                <h6
+                  style="font-size: 13px; color: #8b9398; margin: auto"
+                >
+                  Female
+                </h6>
+
+                <img
+                  style="margin-left: auto; margin-right: auto; margin-bottom: 5px; height: 20px"
+                  src="./img/dropDown.png" alt="Question icon">
+              </div>
+            </button>
+          </div>
+        </div>
+
+        <!-- Divider-->
+        <div class="verticalLine"></div>
+
+        <!-- Second Column-->
+
+        <div
+          style=" width: 220px; display: flex; flex-direction: row; justify-content: space-between"
+        >
+          <div
+            class="div-two-column-one"
+          >
+            <h6
+              style="font-size: 15px; color: #8b9398; margin: 0px"
+            >
+              Middle Age
+            </h6>
+          </div>
+
+          <div
+            class="div-two-column-two"
+          >
+            <img
+              style="width: 25px; height: 25px;"
+              src="./img/questionIcon.png" alt="Question icon">
+          </div>
+
+          <div
+            class="div-two-column-three">
+            <button
+              class="normal-button"
+              type="button"
+              style="background-color: transparent"
+            >
+              <div
+                style="display: flex; flex-direction: row; justify-content: space-between; align-content: center"
+              >
+                <h6
+                  style="font-size: 13px; color: #8b9398; margin: auto"
+                >
+                  1 month
+                </h6>
+
+                <img
+                  style="margin-left: auto; margin-right: auto; margin-bottom: 5px; height: 20px"
+                  src="./img/dropDown.png" alt="Question icon">
+              </div>
+            </button>
+          </div>
+        </div>
+
+        <!-- Divider-->
+        <div class="verticalLine"></div>
+
+        <!-- Third Column-->
+
+        <div
+          style=" width: 220px; display: flex; flex-direction: row; justify-content: space-between"
+        >
+          <div
+            class="div-two-column-one"
+          >
+            <h6
+              style="font-size: 15px; color: #8b9398; margin: 0px"
+            >
+              Post Type
+            </h6>
+          </div>
+
+          <div
+            class="div-two-column-two"
+          >
+            <img
+              style="width: 25px; height: 25px;"
+              src="./img/questionIcon.png" alt="Question icon">
+          </div>
+
+          <div
+            class="div-two-column-three">
+            <button
+              class="normal-button"
+              type="button"
+              style="background-color: transparent"
+            >
+              <div
+                style="display: flex; flex-direction: row; justify-content: space-between; align-content: center"
+              >
+                <h6
+                  style="font-size: 13px; color: #8b9398; margin: auto"
+                >
+                  Photo
+                </h6>
+
+                <img
+                  style="margin-left: auto; margin-right: auto; margin-bottom: 5px; height: 20px"
+                  src="./img/dropDown.png" alt="Question icon">
+              </div>
+            </button>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Divider -->
+      <hr/>
+    </div>
+
+
+    <!-- Bottom row-->
+    <div
+      style="margin-bottom: 20px; width: 100%; display: flex; justify-content: space-between; flex-direction: row"
+    >
+
+      <!-- First Column-->
+      <div
+        style="display: flex; flex-direction: column"
+      >
+        <div
+          style=" width: 440px; display: flex; flex-direction: row; justify-content: flex-start; align-content: flex-start"
+        >
+          <div
+            class="div-two-column-one"
+          >
+            <h6
+              style="font-size: 15px; color: #8b9398; margin: 0px"
+            >
+              User Followers Range
+            </h6>
+          </div>
+
+          <div
+            class="div-two-column-two"
+            style="margin-left: 20px"
+          >
+            <img
+              style="width: 25px; height: 25px;"
+              src="./img/questionIcon.png" alt="Question icon">
+          </div>
+        </div>
+
+        <div>
+          <form>
+            <div data-role="rangeslider">
+              <label for="range-1a"></label>
+              <input type="range" name="range-1a" id="range-1a" min="0" max="10000" value="50" data-popup-enabled="true" data-show-value="true">
+              <label for="range-1b"></label>
+              <input type="range" name="range-1b" id="range-1b" min="0" max="100" value="80" data-popup-enabled="true" data-show-value="true">
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <!-- Second Column-->
+      <div
+        style="display: flex; flex-direction: column"
+      >
+        <div
+          style=" width: 440px; display: flex; flex-direction: row; justify-content: flex-start; align-content: flex-start"
+        >
+          <div
+            class="div-two-column-one"
+          >
+            <h6
+              style="font-size: 15px; color: #8b9398; margin: 0px"
+            >
+              User Followers Range
+            </h6>
+          </div>
+
+          <div
+            class="div-two-column-two"
+            style="margin-left: 20px"
+          >
+            <img
+              style="width: 25px; height: 25px;"
+              src="./img/questionIcon.png" alt="Question icon">
+          </div>
+        </div>
+
+        <div>
+          <form>
+            <div data-role="rangeslider">
+              <label for="range-1a"></label>
+              <input type="range" name="range-1a" id="range-1a" min="0" max="10000" value="50" data-popup-enabled="true" data-show-value="true">
+              <label for="range-1b"></label>
+              <input type="range" name="range-1b" id="range-1b" min="0" max="100" value="80" data-popup-enabled="true" data-show-value="true">
+            </div>
+          </form>
+        </div>
+      </div>
+
+
+    </div>
+
+  </div>
+
+  <!-- Username and Harsh targeting -->
+ <div
+  style="display: flex; justify-content: center; align-content: center"
+ >
+
+   <div
+     class="root-username"
+     style="display: flex; padding-top: 0px; padding-left: 20px; padding-right: 20px; flex-direction: column; justify-content: space-around; align-self: center; width: 30%; margin-top: 40px;"
+   >
+
+     <div style="margin-top: 20px">
+       <div class="div-three-column-one">
+         <img
+           style="width: 15px; height: 15px;"
+           src="./img/settingsIcon.png" alt="Settings Icon">
+       </div>
+       <div class="div-three-column-two">
+         <h6 style="font-size: 15px; color: #8b9398; margin: 0px">User Targeting</h6>
+       </div>
+     </div>
+
+     <div class="box"></div>
+
+     <div
+       style="display: flex; flex-direction: row; "
+     >
+
+       <div>
+          <form style="padding: 0; margin: 0; ">
+            <input type="text">
+          </form>
+       </div>
+
+       <div
+         class="add-button">
+         <button
+           class="add-button-one"
+           type="button"
+           style="background-color: #31a3aa"
+         >
+           <div
+             style="display: flex; flex-direction: row; justify-content: space-between; align-content: center"
+           >
+             <h6
+               style="font-size: 13px; color: #FFFFFF; margin: auto"
+             >
+               Add
+             </h6>
+           </div>
+         </button>
+       </div>
+     </div>
+   </div>
+
+
+   <div
+     class="root-username"
+     style="display: flex; margin-left: 30px; padding-top: 0px; padding-left: 20px; padding-right: 20px; flex-direction: column; justify-content: space-around; align-self: center; width: 30%; margin-top: 40px;"
+   >
+
+     <div style="margin-top: 20px">
+       <div class="div-three-column-one">
+         <img
+           style="width: 15px; height: 15px;"
+           src="./img/settingsIcon.png" alt="Settings Icon">
+       </div>
+       <div class="div-three-column-two">
+         <h6 style="font-size: 15px; color: #8b9398; margin: 0px">Harshtag Targeting</h6>
+       </div>
+     </div>
+
+     <div class="box"></div>
+
+     <div
+       style="display: flex; flex-direction: row; "
+     >
+
+       <div>
+         <form style="padding: 0; margin: 0; ">
+           <input type="text">
+         </form>
+       </div>
+
+       <div
+         class="add-button">
+         <button
+           class="add-button-one"
+           type="button"
+           style="background-color: #31a3aa"
+         >
+           <div
+             style="display: flex; flex-direction: row; justify-content: space-between; align-content: center"
+           >
+             <h6
+               style="font-size: 13px; color: #FFFFFF; margin: auto"
+             >
+               Add
+             </h6>
+           </div>
+         </button>
+       </div>
+     </div>
+   </div>
+ </div>
+
+  <div
+    style="display: flex; justify-content: center; align-content: center"
+  >
+
+    <div
+      class="root-username"
+      style="display: flex; padding-top: 0px; padding-left: 20px; padding-right: 20px; flex-direction: column; justify-content: space-around; align-self: center; width: 30%; margin-top: 40px;"
+    >
+
+      <div style="margin-top: 20px">
+        <div class="div-three-column-one">
+          <img
+            style="width: 15px; height: 15px;"
+            src="./img/location.png" alt="Settings Icon">
+        </div>
+        <div class="div-three-column-two">
+          <h6 style="font-size: 15px; color: #8b9398; margin: 0px">Location Targeting</h6>
+        </div>
+      </div>
+
+      <div class="box"></div>
+
+      <div
+        style="display: flex; flex-direction: row; "
+      >
+
+        <div>
+          <form style="padding: 0; margin: 0; ">
+            <input type="text">
+          </form>
+        </div>
+
+        <div
+          class="add-button">
+          <button
+            class="add-button-one"
+            type="button"
+            style="background-color: #31a3aa"
+          >
+            <div
+              style="display: flex; flex-direction: row; justify-content: space-between; align-content: center"
+            >
+              <h6
+                style="font-size: 13px; color: #FFFFFF; margin: auto"
+              >
+                Add
+              </h6>
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+
+
+    <div
+      class="root-username"
+      style="display: flex; margin-left: 30px; padding-top: 0px; padding-left: 20px; padding-right: 20px; flex-direction: column; justify-content: space-around; align-self: center; width: 30%; margin-top: 40px;"
+    >
+
+      <div style="margin-top: 20px">
+        <div class="div-three-column-one">
+          <img
+            style="width: 15px; height: 15px;"
+            src="./img/chat.png" alt="Settings Icon">
+        </div>
+        <div class="div-three-column-two">
+          <h6 style="font-size: 15px; color: #8b9398; margin: 0px">Comments</h6>
+        </div>
+      </div>
+
+      <div class="box"></div>
+
+      <div
+        style="display: flex; flex-direction: row; "
+      >
+
+        <div>
+          <form style="padding: 0; margin: 0; ">
+            <input type="text">
+          </form>
+        </div>
+
+        <div
+          class="add-button">
+          <button
+            class="add-button-one"
+            type="button"
+            style="background-color: #31a3aa"
+          >
+            <div
+              style="display: flex; flex-direction: row; justify-content: space-between; align-content: center"
+            >
+              <h6
+                style="font-size: 13px; color: #FFFFFF; margin: auto"
+              >
+                Add
+              </h6>
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <script src="js/vendor/modernizr-3.8.0.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>
